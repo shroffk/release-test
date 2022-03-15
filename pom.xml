@@ -9,7 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <name>phoebus (release test)</name>
     <description>A test for release org.phoebus modules</description>
+    <url>http://phoebus.org</url>
 
+    <licenses>
+        <license>
+            <name>Eclipse Public License 1.0</name>
+            <url>https://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
