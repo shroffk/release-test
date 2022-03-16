@@ -4,7 +4,13 @@
 
     <groupId>org.phoebus</groupId>
     <artifactId>release-test</artifactId>
+    <packaging>pom</packaging>
     <version>1.1-SNAPSHOT</version>
+    <modules>
+        <module>release-service</module>
+        <module>release-app</module>
+        <module>release-core</module>
+    </modules>
     <name>phoebus (release test)</name>
     <description>A test for release org.phoebus modules</description>
     <url>http://phoebus.org</url>
